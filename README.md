@@ -3,6 +3,9 @@ Soap sandbox
 
 #JAX-WS example
 
+1. Build project with maven to generate jax-ws plugin files.
+2. Run Publisher.java main method to publish endpoint.
+3. Check web service by sending requests:
 
 URL: http://localhost:9999/ws/hello?wsdl
 
@@ -22,7 +25,7 @@ Request Body:
 		<S:Body>
 			<ns2:getHelloWorldAsString xmlns:ns2="http://ws.jaxws.rchab.com/">
 				<arg0>rchabanych</arg0>
-			</ns2:getHelloWorldAsString>
+			</ns2:getHelloWorldAsString> s
 		</S:Body>
 	</S:Envelope>
 </xml>
