@@ -3,6 +3,9 @@ Soap sandbox
 
 #JAX-WS example
 
+
+URL: http://localhost:9999/ws/hello?wsdl
+
 Request Headers:
 SOAPAction: ""
 Accept: text/xml, multipart/related, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
@@ -24,6 +27,7 @@ Request Body:
 	</S:Envelope>
 </xml>
 
+Response status: 200 OK
 
 Response headers:
 Date: Sat, 05 Sep 2015 19:21:56 GMT
