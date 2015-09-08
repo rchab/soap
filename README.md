@@ -50,6 +50,7 @@ Response body:
 
 #Spring-WS sample
 
-1. Run maven build to generate io package classes;
-2. Send sample request: curl --header "content-type: text/xml" -d @src\main\resources\request-sample-body.xml http://localhost:8080/ws
+1. Run maven build to generate io package classes and create application jar;
+2. Run jar: java -jar spring-ws-1.0-SNAPSHOT.jar from target folder;
+3. Send sample request: curl --header "content-type: text/xml" -d @src\main\resources\request-sample-body.xml http://localhost:8080/ws
 
