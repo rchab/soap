@@ -46,3 +46,10 @@ Response body:
         </ns2:getHelloWorldAsStringResponse>
     </S:Body>
 </S:Envelope>
+
+
+#Spring-WS sample
+
+1. Run maven build to generate io package classes;
+2. Send sample request: curl --header "content-type: text/xml" -d @src\main\resources\request-sample-body.xml http://localhost:8080/ws
+
